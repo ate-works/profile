@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>周防 佳奈（あて）｜ショート動画運用</title>
+<meta name="description" content="長尺動画から、見られるショートを。撮影を増やさずにYouTubeの入口を増やすショート動画運用を、個人で担当しています。">
+<style>
+  :root {
+    --ink: #1f2a2e;
+    --sub: #5b6a70;
+    --line: #d9e2e4;
+    --accent: #1f7a6d;
+    --accent-soft: #e8f3f1;
+    --warm: #f6f1e7;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    line-height: 1.85;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  a { color: var(--accent); }
+
+  header.hero {
+    background: linear-gradient(180deg, var(--accent-soft) 0, #fff 100%);
+    padding: 56px 0 40px;
+  }
+  .hero .inner { display: flex; gap: 32px; align-items: center; }
+  .photo {
+    width: 210px; height: 280px; flex-shrink: 0;
+    border-radius: 16px; overflow: hidden;
+    background: #fff; border: 4px solid #fff;
+    box-shadow: 0 4px 18px rgba(31,122,109,.18);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent); font-weight: 700; font-size: 15px; text-align: center;
+  }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .eyebrow { font-size: 13px; letter-spacing: .2em; color: var(--accent); font-weight: 700; }
+  h1 { font-size: 30px; line-height: 1.4; margin: 6px 0 4px; }
+  .kana { font-size: 14px; color: var(--sub); margin: 0 0 12px; }
+  .role { font-size: 17px; margin: 0; }
+
+  section { padding: 40px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 21px; margin: 0 0 18px; padding-left: 12px; border-left: 5px solid var(--accent); line-height: 1.4; }
+  p { margin: 0 0 14px; }
+
+  .catch { font-size: 22px; font-weight: 700; line-height: 1.6; margin-bottom: 12px; }
+
+  .proof { background: var(--warm); border-radius: 12px; padding: 22px 24px; display: flex; gap: 24px; align-items: center; margin-bottom: 16px; }
+  .proof .big { font-size: 48px; font-weight: 800; color: var(--accent); line-height: 1; white-space: nowrap; }
+  .proof .big small { font-size: 18px; }
+  .proof p { margin: 0; }
+  .note { font-size: 13px; color: var(--sub); }
+
+  ul.points { padding-left: 1.2em; margin: 0 0 8px; }
+  ul.points li { margin-bottom: 6px; }
+
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .card { border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .card .num { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: .1em; }
+  .card .t { font-weight: 700; margin: 2px 0 6px; }
+  .card p { font-size: 14px; color: var(--sub); margin: 0; }
+
+  .career { border-collapse: collapse; width: 100%; }
+  .career th, .career td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  .career th { width: 7.5em; color: var(--accent); font-weight: 700; white-space: nowrap; }
+
+  .cta { background: var(--accent); color: #fff; border-radius: 14px; padding: 28px 24px; text-align: center; }
+  .cta h2 { border: 0; padding: 0; color: #fff; text-align: center; }
+  .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 18px 0 8px; }
+  .btn { display: inline-block; padding: 13px 22px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+  .btn.main { background: #fff; color: var(--accent); }
+  .btn.sub { border: 2px solid #fff; color: #fff; }
+  .cta .small { font-size: 13px; opacity: .9; margin: 0; }
+
+  footer { padding: 28px 0 40px; font-size: 13px; color: var(--sub); }
+  footer p { margin: 0 0 4px; }
+
+  @media (max-width: 640px) {
+    header.hero { padding: 36px 0 28px; }
+    .hero .inner { flex-direction: column; text-align: center; gap: 18px; }
+    .photo { width: 180px; height: 240px; }
+    h1 { font-size: 26px; }
+    .catch { font-size: 19px; }
+    .cards { grid-template-columns: 1fr; }
+    .proof { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .career th { width: 6em; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap inner">
+    <div class="photo">
+      <!-- 顔写真：同じフォルダに photo.jpg を置くと表示されます -->
+      <img src="photo.jpg" alt="周防 佳奈の写真" onerror="var p=this.parentNode; p.textContent='写真';">
+    </div>
+    <div>
+      <div class="eyebrow">PROFILE</div>
+      <h1>周防 佳奈（あて）</h1>
+      <p class="kana">スオウ カナ</p>
+      <p class="role">YouTubeのショート動画運用を、個人で担当しています。</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <p class="catch">長尺動画から、見られるショートを。</p>
+    <p>すでにお持ちの長尺動画から、30〜60秒の「見られる場面」を選んでショートにします。撮影を増やさずに、まだチャンネルを知らない方への入口をつくる仕事です。</p>
+    <p>売っているのは編集作業ではなく、<b>「選ぶ・作る・数字を見て直す」までの運用</b>です。</p>
+  </section>
+
+  <section>
+    <h2>実績</h2>
+    <div class="proof">
+      <div class="big">約2.7<small>倍</small></div>
+      <p>登録者<b>約25万人</b>のビジネス系YouTubeチャンネルで、ショート運用（場面の選定・編集・投稿・数字を見た改善）を裏方として担当しています。担当前と後の同じ期間（129日間）で、ショートの視聴回数は約2.7倍になりました。</p>
+    </div>
+    <ul class="points">
+      <li>これまで<b>20以上のチャンネル</b>の運営相談に対応</li>
+      <li>自分でもYouTubeチャンネルを運営し、収益化しています</li>
+    </ul>
+    <p class="note">※ 出す本数を増やし、型ごとに数字を見て直した結果です。再生数や登録者数の増加を保証するものではありません。</p>
+  </section>
+
+  <section>
+    <h2>していること</h2>
+    <div class="cards">
+      <div class="card"><div class="num">01 選ぶ</div><div class="t">場面の選定</div><p>長尺の中から、ショートで伸びやすい場面を選びます。選んだ理由もお伝えします。</p></div>
+      <div class="card"><div class="num">02 作る</div><div class="t">縦型編集・テロップ</div><p>縦型にして、テロップとタイトル案をつけます。</p></div>
+      <div class="card"><div class="num">03 直す</div><div class="t">数字を見て次へ</div><p>公開後の数字を見て、伸びた型を増やします。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>経歴</h2>
+    <table class="career">
+      <tr><th>これまで</th><td>株式会社リクルートキャリア（法人営業）、株式会社ミスミ（事業開発）などを経て独立。</td></tr>
+      <tr><th>現在</th><td>個人事業主として、YouTubeのショート運用と、業務の仕組み化を担当しています。</td></tr>
+      <tr><th>大事にしていること</th><td>何を仕組みにして、何を人が判断するかを分けること。お客様の手間を増やさずに、続けられる運用をつくります。</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <div class="cta">
+      <h2>まずは30分の無料相談から</h2>
+      <p>チャンネルの状況をお聞きして、ショートにしやすい場面があるかをお伝えします。<br>お申し込みを前提にしない相談です。</p>
+      <div class="btns">
+        <a class="btn main" href="https://timerex.net/s/minimumminimum1212_f235/4d2d358a" target="_blank" rel="noopener">無料相談を予約する</a>
+        <a class="btn sub" href="https://drive.google.com/file/d/1feKjY6DQzv4uyQMGo_GpOvfoZ8fiWolG/view?usp=drive_link" target="_blank" rel="noopener">サービス資料（料金・流れ）</a>
+      </div>
+      <p class="small">個人で丁寧に担当するため、同時にお受けするのは2社までとしています。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>周防 佳奈（あて）／ショート動画運用</p>
+  <p>メール：<a href="mailto:ate2913@gmail.com">ate2913@gmail.com</a></p>
+  <p>〒103-0027 東京都中央区日本橋2丁目16-4 remix日本橋 6階</p>
+</footer>
+
+</body>
+</html>
